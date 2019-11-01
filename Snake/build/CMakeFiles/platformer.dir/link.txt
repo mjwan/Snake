@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/platformer.dir/src/food.cpp.o CMakeFiles/platformer.dir/src/gamebody.cpp.o CMakeFiles/platformer.dir/src/main.cpp.o CMakeFiles/platformer.dir/src/snake.cpp.o  -o platformer -lsfml-network -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system 

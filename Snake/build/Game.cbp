@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML-2.4.2\;CMake Files\SFML-2.4.2\share\;CMake Files\SFML-2.4.2\share\SFML\;CMake Files\SFML-2.4.2\share\SFML\cmake\;CMake Files\SFML-2.4.2\share\SFML\cmake\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/student/Pulpit/Projekt/Snake/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/student/Pulpit/Projekt/Snake/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platformer">
+				<Option output="/home/student/Pulpit/Projekt/Snake/build/platformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/student/Pulpit/Projekt/Snake/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/student/Pulpit/Projekt/Snake/inc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 platformer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platformer/fast">
+				<Option output="/home/student/Pulpit/Projekt/Snake/build/platformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/student/Pulpit/Projekt/Snake/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/student/Pulpit/Projekt/Snake/inc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 platformer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/student/Pulpit/Projekt/Snake/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Pulpit/Projekt/Snake/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/inc/food.hpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/inc/gamebody.hpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/inc/snake.hpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/src/food.cpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/src/gamebody.cpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/src/main.cpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/src/snake.cpp">
+			<Option target="platformer"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/Projekt/Snake/SFML-2.4.2/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.4.2\share\SFML\cmake\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
