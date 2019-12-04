@@ -1,3 +1,0 @@
-/home/student/Pulpit/Projekt/SFML-2.4.2/CMakeFiles/rebuild_cache.dir
-/home/student/Pulpit/Projekt/SFML-2.4.2/CMakeFiles/myproject.dir
-/home/student/Pulpit/Projekt/SFML-2.4.2/CMakeFiles/edit_cache.dir
